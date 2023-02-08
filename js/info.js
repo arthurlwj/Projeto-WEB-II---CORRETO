@@ -1,5 +1,5 @@
 function acessar(){
-    window.location.href = 'http://127.0.0.1:5500/Reserva%20Cinema/reserva.html'
+    window.location.href = '../Sessão do cinema/reserva.html'
 }
 
 

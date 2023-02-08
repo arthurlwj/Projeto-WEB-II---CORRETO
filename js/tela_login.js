@@ -40,7 +40,7 @@ function entrar (){
     })
 
     if(usuario.value == userValid.user && senha.value == userValid.senha){
-        window.location.href = 'http://127.0.0.1:5500/telaFilmes.html'
+        window.location.href = '../telaFilmes.html'
         let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
         localStorage.setItem('token', token)
 

@@ -99,14 +99,14 @@ function cadastrar(){
 
 
         msgSuccess.setAttribute('style', 'display: block')
-        msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
+        msgSuccess.innerHTML = '<strong> Cadastrando usuário...</strong>'
         msgError.setAttribute('style', 'display: none')
         msgError.innerHTML = ''
 
         setTimeout(()=>{
-            window.location.href = 'http://127.0.0.1:5500/tela_login.html'
+            window.location.href = '..//tela_login.html'
        
-        }, 3000)    
+        }, 5000)    
        
     }else{
         msgError.setAttribute('style', 'display: block')
